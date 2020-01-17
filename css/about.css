@@ -63,9 +63,9 @@ html, body {
 /* navigation styling*/
 nav {
     display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	height: 150px;
+	height: 130px;
 }
 
 nav a {	
@@ -112,32 +112,33 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 80%;
+    width: 92%;
     height: 450px;
     background: white;
-    margin: 20px 2.5%;
+    margin: 25px 2.5% 50px 2.5%;
     color: black;
     border-bottom: 2px dotted black;
 }
 
 .middle-content a {
     background: white;
-    border: 1px solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    border: 2px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: black;
     text-decoration: none;
+    border-radius: 10px;
   }
 
 .middle-content .text-container {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .bottom-content .text-container {
-    margin-top: 4%;
+    margin-top: 1%;
     margin-bottom: 4%;
 }
 
@@ -151,8 +152,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 30px 2%;
     font-size: 14px;
+    height: 50%
 }
 
 footer nav a {

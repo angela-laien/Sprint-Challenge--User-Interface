@@ -63,9 +63,9 @@ html, body {
 /* navigation styling*/
 nav {
     display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	height: 150px;
+	height: 130px;
 }
 
 nav a {	
@@ -89,7 +89,7 @@ p {
 }
 
 .container {
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -258,8 +258,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 30px 2%;
     font-size: 14px;
+    height: 50%;
 }
 
 footer nav a {
